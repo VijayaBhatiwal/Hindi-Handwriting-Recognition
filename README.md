@@ -3,6 +3,7 @@ HindiHnadWritingRecognizer
 This code helps you classify different alphabets of hindi language (Devanagari) using Convnets
 
 Description
+
 This code successfully recognizes hindi characters when user make characters in front of camera.
 
 Code Requirements
@@ -14,6 +15,7 @@ Code Requirements
 6.	application.py require devanagari_model.h5 model for classify the characters.
 
 Technique Used
+
 I have used convolutional neural networks. I am using TensorFlow as the framework and Keras API for providing a high level of abstraction.
 
 Architecture
@@ -25,12 +27,17 @@ Python Implementation
 3.	Convolutional Network Support added.
 
 Train Accuracy ~ 95%
+
 train on 70000 with 8 Epochs
+
 Test Accuracy ~ 92%
+
 test on 2001
 
 Execution of program
+
 To train the dataset run file handWritingRecognition.py
+
 To run code type: python3 handWritingRecognition.py
 
 Execution for writing through webcam
